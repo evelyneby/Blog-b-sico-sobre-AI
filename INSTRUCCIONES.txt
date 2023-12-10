@@ -1,0 +1,10 @@
+INSTRUCCIONES
+
+1.- Una vez que estes dentro de la carpeta INTELIGENCIA ARTIFICIAL_evelyn se encontraran varios archivos
+Busca un archivo de extención .html llamado index y abrelo en tu buscador google
+
+2.- Una vez que este abierto puedes visualizar
+la página completa además podras localizar el menú en una barra color azul con flechas de colores
+En ese menú podrás visualizar las subpáginas. 
+
+3.- puedes visualizar el código abriendo el archivo en notepad

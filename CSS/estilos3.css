@@ -1,0 +1,108 @@
+* { 
+            margin: 0;
+            padding: 0;
+}
+/*margin:0 no tendra margin ni padding*/
+  
+
+
+/*En header, .main, footer las caracteristicas escritas son las que se van a aplicar
+en esas etiquetas que tengan ese nombre*/
+header, .main, footer {
+            width: 90%;
+            max-width: 1000px;
+            margin:20px; auto;
+}
+
+/*en esta parte es para modificar el header que tiene etiqueta nav*/
+header nav{
+    background: #528fd5;
+    overflow: hidden;
+}
+
+/*En esta parte modificas el header nav ul en las listas*/
+    header nav ul{
+    list-style:none;
+}
+
+/*en esta parte se modifica la alinacion de la lista
+se va a poner de forma izquierda*/
+header nav ul li{
+    float: left;
+} 
+
+/* en esta parte se modifican los enlaces que se encuentran en header nav ul il*/
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+} 
+
+/*Se modifica el color de los enlaces  cuando se poner la felcha arriba de el*/
+header nav ul li a:hover{
+    
+    background:  #75acec;
+}
+
+/*Es para darle estilo a los articles como el margen, float, el ancho
+*/
+.main .articles{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+    
+}
+
+
+.main .articles article{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+/*aside se especifica los estilos que tendra*/
+aside {
+    width: 30%;
+    background: black;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*Aqui se especifican los valores que tendra el pie de pagina*/
+footer p{
+    background: #000;
+    color: #fff;
+    clear: both;
+    padding: 10px opx;
+    text-align: center;
+}
+
+/* para el manejo de texto tipografia presentacion */
+h2, h3 {
+font-weight: normal;
+text-align: center;
+background: green;
+text-transform: capitalize;
+}
+
+/*Aqui se especifica los estilos que presentaran las etiquetas p parrafo*/
+p {
+    font-family: Sans-serif,Helvetica,Arial;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 1px 1px 1px grey;
+
+}
+
+font {
+	text-shadow: 1px 1px 1px black;
+
